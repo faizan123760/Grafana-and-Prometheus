@@ -49,7 +49,9 @@ Example: Import Node Exporter Full dashboard (ID: 1860).
 
 ## Templating:
 Use variables to create dynamic dashboards.
-`variable:
+```
+variable:
   name: node
   label: Node
-  query: label_values(node_exporter_build_info, instance)`
+  query: label_values(node_exporter_build_info, instance)
+```
